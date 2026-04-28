@@ -1,7 +1,7 @@
 #############################
 #		Andrea Theme		#
 #############################
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # https://github.com/gh0stzk/dotfiles
 
 # Colorscheme
@@ -29,7 +29,7 @@ accent_color="#e5ded6"
 arch_icon="#0f94d2"
 
 # Bspwm options
-BORDER_WIDTH="0"		# Bspwm border
+BORDER_WIDTH="1"		# Bspwm border
 TOP_PADDING="69"
 BOTTOM_PADDING="1"
 LEFT_PADDING="1"
@@ -46,7 +46,7 @@ P_FADE="true"			# Fade true|false
 P_SHADOWS="true"		# Shadows true|false
 SHADOW_C="#000000"		# Shadow color
 P_CORNER_R="6"			# Corner radius (0 = disabled)
-P_BLUR="false"			# Blur true|false
+P_BLUR="true"			# Blur true|false
 P_ANIMATIONS="@"		# (@ = enable) (# = disable)
 P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
 
@@ -103,8 +103,8 @@ geany_theme="z0mbi3-Andrea"
 # - Default (Sets a specific image as wallpaper) *Default
 # - Animated (Set an animated wallpaper. "mp4, mkv, gif")
 # - Slideshow (Change randomly every 15 minutes your wallpaper from Walls rice directory)
-ENGINE="Default"
+ENGINE="CustomDir"
 
-CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/andrea/walls/wall-01.webp"
+CUSTOM_DIR="/home/moy/Pictures/Wallpaper"
+DEFAULT_WALL="/home/moy/.config/bspwm/rices/andrea/walls/wall-10.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

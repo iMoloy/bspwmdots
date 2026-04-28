@@ -1,31 +1,31 @@
 # Default colors
 [colors.primary]
-background = "#1a1b26"
-foreground = "#c0caf5"
+background = "#282a36"
+foreground = "#f8f8f2"
 
 # Cursor colors
 [colors.cursor]
-cursor = "#c0caf5"
-text = "#1a1b26"
+cursor = "#f8f8f2"
+text = "#282a36"
 
 # Normal colors
 [colors.normal]
-black = "#15161e"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#bb9af7"
-cyan = "#7dcfff"
-white = "#a9b1d6"
+black = "#21222c"
+red = "#ff5555"
+green = "#50fa7b"
+yellow = "#f1fa8c"
+blue = "#bd93f9"
+magenta = "#ff79c6"
+cyan = "#8be9fd"
+white = "#f8f8f2"
 
 # Bright colors
 [colors.bright]
-black = "#414868"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#bb9af7"
-cyan = "#7dcfff"
-white = "#c0caf5"
+black = "#6272a4"
+red = "#ff6e6e"
+green = "#69ff94"
+yellow = "#ffffa5"
+blue = "#d6acff"
+magenta = "#ff92df"
+cyan = "#a4ffff"
+white = "#ffffff"

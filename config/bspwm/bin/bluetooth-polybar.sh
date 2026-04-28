@@ -16,7 +16,7 @@
 # - Graceful error handling for missing configs
 # - Efficient command execution
 #
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # Licensed under GPL-3.0 license
 # ----------------------------------------------------------------------------
 

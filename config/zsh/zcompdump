@@ -1,4 +1,4 @@
-#files: 820	version: 5.9
+#files: 850	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -81,6 +81,7 @@ _comps=(
 'basename' '_basename'
 'basenc' '_basenc'
 'bash' '_bash'
+'bat' '_bat'
 'batch' '_at'
 'baz' '_baz'
 'beep' '_beep'
@@ -88,6 +89,7 @@ _comps=(
 'bibtex' '_bibtex'
 'bindkey' '_bindkey'
 'bison' '_bison'
+'bluetoothctl' '_bluetoothctl'
 'bmake' '_make'
 'bogofilter' '_bogofilter'
 'bogotune' '_bogofilter'
@@ -123,6 +125,7 @@ _comps=(
 'bunzip2' '_bzip2'
 'burst' '_mh'
 'busctl' '_busctl'
+'bwrap' '_bwrap'
 'bzcat' '_bzip2'
 'bzegrep' '_grep'
 'bzfgrep' '_grep'
@@ -134,6 +137,12 @@ _comps=(
 'cabal' '_cabal'
 'cal' '_cal'
 'calendar' '_calendar'
+'calibre' '_calibre'
+'calibredb' '_calibre'
+'calibre-debug' '_calibre'
+'calibre-server' '_calibre'
+'calibre-smtp' '_calibre'
+'cargo' '_cargo'
 'cat' '_cat'
 'catchsegv' '_precommand'
 'cc' '_gcc'
@@ -173,6 +182,10 @@ _comps=(
 'clang++' '_gcc'
 'clay' '_clay'
 'clear' '_nothing'
+'clipcatctl' '_clipcatctl'
+'clipcatd' '_clipcatd'
+'clipcat-menu' '_clipcat-menu'
+'clipcat-notify' '_clipcat-notify'
 'cloudkitty' '_openstack'
 'clusterdb' '_postgresql'
 'cmp' '_cmp'
@@ -270,6 +283,12 @@ _comps=(
 'dsh' '_dsh'
 'dtruss' '_dtruss'
 'du' '_du'
+'_dunst' '_dunst'
+'dunst' '_dunst'
+'_dunstctl' '_dunstctl'
+'dunstctl' '_dunstctl'
+'_dunstify' '_dunstify'
+'dunstify' '_dunstify'
 'dvibook' '_dvi'
 'dviconcat' '_dvi'
 'dvicopy' '_dvi'
@@ -282,6 +301,11 @@ _comps=(
 'dwb' '_webbrowser'
 'e2label' '_e2label'
 'eatmydata' '_precommand'
+'ebook-convert' '_calibre'
+'ebook-edit' '_calibre'
+'ebook-meta' '_calibre'
+'ebook-polish' '_calibre'
+'ebook-viewer' '_calibre'
 'ecasound' '_ecasound'
 'echotc' '_echotc'
 'echoti' '_echoti'
@@ -317,12 +341,15 @@ _comps=(
 'express' '_webbrowser'
 'extcheck' '_java'
 'extractres' '_psutils'
+'eza' '_eza'
 'fakeroot' '_fakeroot'
 'false' '_nothing'
+'fastfetch' '_fastfetch'
 'fc' '_fc'
 'fc-list' '_xft_fonts'
 'fc-match' '_xft_fonts'
 'feh' '_feh'
+'fetch-ebook-metadata' '_calibre'
 'fetchmail' '_fetchmail'
 'ffmpeg' '_ffmpeg'
 'fg' '_jobs_fg'
@@ -334,6 +361,7 @@ _comps=(
 'findmnt' '_findmnt'
 'finger' '_finger'
 'firefox' '_mozilla'
+'firejail' '_firejail'
 '-first-' '_first'
 'fixdlsrps' '_psutils'
 'fixfmps' '_psutils'
@@ -590,6 +618,7 @@ _comps=(
 'iftop' '_iftop'
 'ifup' '_net_interfaces'
 'ijoin' '_ispell'
+'img2sixel' '_img2sixel'
 'import' '_imagemagick'
 'inc' '_mh'
 'includeres' '_psutils'
@@ -597,7 +626,7 @@ _comps=(
 'infocmp' '_terminals'
 'initctl' '_initctl'
 'initdb' '_postgresql'
-'insmod' '_modutils'
+'insmod' '_insmod'
 'install' '_install'
 'install-info' '_texinfo'
 'integer' '_typeset'
@@ -643,6 +672,7 @@ _comps=(
 'killall' '_killall'
 'killall5' '_killall'
 'kioclient' '_kfmclient'
+'kitty' '_kitty'
 'knock' '_knock'
 'konqueror' '_webbrowser'
 'kpartx' '_kpartx'
@@ -662,7 +692,6 @@ _comps=(
 'let' '_math'
 'lftp' '_ncftp'
 'lha' '_lha'
-'libinput' '_libinput'
 'light' '_webbrowser'
 'limit' '_limit'
 'links' '_links'
@@ -693,13 +722,14 @@ _comps=(
 'lpr' '_lp'
 'lprm' '_lp'
 'lpstat' '_lp'
+'lrf2lrs' '_calibre'
+'lrfviewer' '_calibre'
 'ls' '_ls'
 'lsattr' '_lsattr'
 'lsblk' '_lsblk'
-'lsd' '_lsd'
 'lsdiff' '_patchutils'
 'lsinitcpio' '_mkinitcpio'
-'lsmod' '_modutils'
+'lsmod' '_lsmod'
 'lsns' '_lsns'
 'lsof' '_lsof'
 'lsusb' '_lsusb'
@@ -746,7 +776,6 @@ _comps=(
 'mencal' '_mencal'
 'mere' '_mere'
 'merge' '_rcs'
-'meson' '_meson'
 'metaflac' '_flac'
 'mformat' '_mtools'
 'mgv' '_pspdf'
@@ -839,7 +868,6 @@ _comps=(
 'nginx' '_nginx'
 'ngrep' '_ngrep'
 'nice' '_nice'
-'ninja' '_ninja'
 'nkf' '_nkf'
 'nl' '_nl'
 'nm' '_nm'
@@ -873,6 +901,7 @@ _comps=(
 'opusdec' '_opustools'
 'opusenc' '_opustools'
 'opusinfo' '_opustools'
+'p11-kit' '_p11-kit'
 'p4' '_perforce'
 'p4d' '_perforce'
 'pacat' '_pulseaudio'
@@ -898,7 +927,7 @@ _comps=(
 '-parameter-' '_parameter'
 'parec' '_pulseaudio'
 'parecord' '_pulseaudio'
-'pass' '_pass'
+'paru' '_paru'
 'passwd' '_users'
 'paste' '_paste'
 'pasuspender' '_pulseaudio'
@@ -1024,6 +1053,7 @@ _comps=(
 'pyhtmlizer' '_twisted'
 'qdbus' '_qdbus'
 'qiv' '_qiv'
+'qpdf' '_qpdf'
 'quilt' '_quilt'
 'r' '_fc'
 'rake' '_rake'
@@ -1078,7 +1108,7 @@ _comps=(
 'rmid' '_java'
 'rmiregistry' '_java'
 'rmm' '_mh'
-'rmmod' '_modutils'
+'rmmod' '_rmmod'
 'route' '_route'
 'rrdtool' '_rrdtool'
 'rsh' '_rlogin'
@@ -1089,6 +1119,7 @@ _comps=(
 'rubber-pipe' '_rubber'
 'ruby' '_ruby'
 'ruby-mri' '_ruby'
+'run0' '_run0'
 'run-help' '_run-help'
 'rup' '_hosts'
 'rusage' '_precommand'
@@ -1114,6 +1145,8 @@ _comps=(
 'seaf-cli' '_seafile'
 'sed' '_sed'
 'senlin' '_openstack'
+'sensors' '_sensors'
+'sensors-detect' '_sensors-detect'
 'seq' '_seq'
 'serialver' '_java'
 'service' '_service'
@@ -1222,6 +1255,8 @@ _comps=(
 'systemd-cgtop' '_systemd'
 'systemd-delta' '_systemd-delta'
 'systemd-detect-virt' '_systemd'
+'systemd-hwdb' '_systemd-hwdb'
+'systemd-id128' '_systemd-id128'
 'systemd-inhibit' '_systemd-inhibit'
 'systemd-machine-id-setup' '_systemd'
 'systemd-notify' '_systemd'
@@ -1286,6 +1321,7 @@ _comps=(
 'true' '_nothing'
 'truncate' '_truncate'
 'truss' '_truss'
+'trust' '_trust'
 'tryaffix' '_ispell'
 'tty' '_tty'
 'ttyctl' '_ttyctl'
@@ -1300,6 +1336,7 @@ _comps=(
 'type' '_which'
 'typeset' '_typeset'
 'udevadm' '_udevadm'
+'udisksctl' '_udisks2'
 'ulimit' '_ulimit'
 'uml_mconsole' '_uml'
 'uml_moo' '_uml'
@@ -1339,6 +1376,7 @@ _comps=(
 'urxvt256c-mlc' '_urxvt'
 'urxvtc' '_urxvt'
 'useradd' '_user_admin'
+'userdbctl' '_userdbctl'
 'userdel' '_users'
 'usermod' '_user_admin'
 'vacuumdb' '_postgresql'
@@ -1354,6 +1392,8 @@ _comps=(
 '-value-,CFLAGS,-default-' '_gcc'
 '-value-,CPPFLAGS,-default-' '_gcc'
 '-value-,CXXFLAGS,-default-' '_gcc'
+'-value-,DBUS_SESSION_BUS_ADDRESS,-default-' '_sd_bus_address'
+'-value-,DBUS_SYSTEM_BUS_ADDRESS,-default-' '_sd_bus_address'
 '-value-,-default-,-command-' '_zargs'
 '-value-,-default-,-default-' '_value'
 '-value-,DISPLAY,-default-' '_x_display'
@@ -1397,6 +1437,7 @@ _comps=(
 '-value-,XZ_OPT,-default-' '_xz'
 '-vared-' '_in_vared'
 'vared' '_vared'
+'varlinkctl' '_varlinkctl'
 'vcs_info_hookadd' '_vcs_info'
 'vcs_info_hookdel' '_vcs_info'
 'vi' '_vi'
@@ -1438,6 +1479,7 @@ _comps=(
 'wipefs' '_wipefs'
 'wodim' '_cdrecord'
 'wpa_cli' '_wpa_cli'
+'wpctl' '_wpctl'
 'write' '_users_on'
 'www' '_webbrowser'
 'xargs' '_xargs'
@@ -1493,9 +1535,10 @@ _comps=(
 'xxd' '_xxd'
 'xz' '_xz'
 'xzcat' '_xz'
+'ya' '_ya'
 'yafc' '_yafc'
 'yash' '_sh'
-'yay' '_yay'
+'yazi' '_yazi'
 'ypbind' '_yp'
 'ypcat' '_yp'
 'ypmatch' '_yp'
@@ -1507,9 +1550,7 @@ _comps=(
 'ypwhich' '_yp'
 'ypxfr' '_yp'
 'ytalk' '_other_accounts'
-'yt-dlp' '_yt-dlp'
 'zargs' '_zargs'
-'zathura' '_zathura'
 'zcalc' '_zcalc'
 '-zcalc-line-' '_zcalc_line'
 'zcat' '_zcat'
@@ -1670,18 +1711,24 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _alacritty _bootctl _bspc _busctl _checkupdates \
-            _coredumpctl _curl _hostnamectl _journalctl _kernel-install \
-            _libinput _localectl _loginctl _lsd _machinectl \
-            _meson _mkinitcpio _mpv _networkctl _ninja \
-            _oomctl _paccache _pacdiff _paclist _paclog-pkglist \
-            _pacman _pacscripts _pacsearch _pacsort _pactree \
-            _pass _playerctl _polybar _polybar_msg _pulseaudio \
-            _rankmirrors _resolvectl _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
-            _sd_unit_files _systemctl _systemd _systemd-analyze _systemd-delta \
-            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
-            _timedatectl _udevadm _updpkgsums _yay _yt-dlp \
-            _zathura _cdr _all_labels _all_matches _alternative \
+autoload -Uz _alacritty _bat _bluetoothctl _bootctl _bspc \
+            _busctl _bwrap _calibre _cargo _checkupdates \
+            _clipcatctl _clipcatd _clipcat-menu _clipcat-notify _code \
+            _coredumpctl _curl _dkms _dunst _dunstctl \
+            _dunstify _eza _fastfetch _firejail _hostnamectl \
+            _img2sixel _insmod _journalctl _kernel-install _kitty \
+            _localectl _loginctl _lsmod _machinectl _mkinitcpio \
+            _mpv _networkctl _oomctl _p11-kit _paccache \
+            _pacdiff _paclist _paclog-pkglist _pacman _pacscripts \
+            _pacsearch _pacsort _pactree _paru _playerctl \
+            _polybar _polybar_msg _pulseaudio _qpdf _rankmirrors \
+            _resolvectl _rmmod _run0 _sd_bus_address _sd_hosts_or_user_at_host \
+            _sd_machines _sd_outputmodes _sd_unit_files _sensors _sensors-detect \
+            _systemctl _systemd _systemd-analyze _systemd-delta _systemd-hwdb \
+            _systemd-id128 _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
+            _systemd-tmpfiles _timedatectl _trust _udevadm _udisks2 \
+            _updpkgsums _userdbctl _varlinkctl _wpctl _ya \
+            _yazi _cdr _all_labels _all_matches _alternative \
             _approximate _arg_compile _arguments _bash_completions _cache_invalid \
             _call_function _combination _complete _complete_debug _complete_help \
             _complete_help_generic _complete_tag _comp_locale _correct _correct_filename \

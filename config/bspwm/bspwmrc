@@ -9,7 +9,7 @@
 # Author:  gh0stzk
 # Repo:    https://github.com/gh0stzk/dotfiles
 # Date:    24.04.2025 20:37:31
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # =============================================================
 
 # Set environment variables
@@ -30,7 +30,7 @@ MonitorSetup
 
 bspc config external_rules_command "${HOME}"/.config/bspwm/bin/ExternalRules
 
-bspc config window_gap                5
+bspc config window_gap 2
 bspc config split_ratio               0.51
 bspc config single_monocle            true
 

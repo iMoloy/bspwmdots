@@ -17,34 +17,69 @@ alt + F1
 # ----- Main Apps ----- #
 
 # Open Terminal (Normal & Floating)
-super + {_,alt + }Return
+super + {_,shift + }Return
     OpenApps --{terminal,floating}
 
 # App launcher
-super + @space
+super + a
     OpenApps --menu
 
 # Theme Selector
-alt + @space
+super + x
     RiceSelector
 
 # ----- Your Apps ----- #
 
-# Apps (browser, editor, filemanager)
-super + {b,e,f}
-    OpenApps --{browser,editor,filemanager}
+# Apps filemanager
+super + e
+    OpenApps --filemanager
 
-# Terminal apps (yazi, nvim, ncmpcpp)
-super + {y,v,m}
-    OpenApps --{yazi,nvim,music}
+# Browser
+super + b
+    google-chrome-stable
 
-# Media apps (Pavucontrol, Telegram, Whatsapp)
-super + {p,t,w}
-    OpenApps --{soundcontrol,telegram,whats}
+super + shift + b
+    OpenApps --browser
+
+# VS Code
+super + c
+    code
+
+# Telegram
+super + t
+    Telegram
+
+# Discord
+super + d
+	/usr/bin/discord
+
+# Stacer
+super + s
+	/usr/bin/stacer
+
+# Disable idle (like idle_inhibitor ON)
+super + i
+    xset s off -dpms && notify-send "Screen 󰛨"
+
+# Enable idle (like idle_inhibitor OFF)
+super + shift + i
+    xset s on +dpms && notify-send "Screen 󰹏"
+
+# Music (keep ncmpcpp)
+super + m
+    kitty -e ncmpcpp
+
+# Media apps (Pavucontrol, Whatsapp)
+super + {p,w}
+    OpenApps --{soundcontrol,whats}
 
 # Rice Editor App
 super + r
     RiceEditor
+
+# Fcitx5 --Avro
+super + space
+    fcitx5
 
 # ----- Rofi Applets ----- #
 
@@ -69,7 +104,7 @@ super + alt + b
     OpenApps --bluetooth
 
 # Clipboard
-super + alt + c
+super + alt + v
     OpenApps --clipboard
 
 # Screenshot
@@ -122,13 +157,36 @@ ctrl + alt + {plus,minus,t}
 XF86MonBrightness{Up,Down}
     sh Brightness {up,down}
 
+# Manual Brightness Control (Workaround)
+super + F7
+    brightnessctl set 5%-
+
+super + F8
+    brightnessctl set 5%+
+
 # Volume control
 XF86Audio{RaiseVolume,LowerVolume,Mute}
     Volume{ --inc, --dec, --toggle}
 
+
+# Manual Volume Control (Stable)
+# Mute / Unmute
+super + F9
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Volume Down
+super + F10
+    pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# Volume Up
+super + F11
+    pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+
 # Music Control
 XF86Audio{Next,Prev,Play,Stop}
     MediaControl {--next,--previous,--toggle,--stop}
+
 
 #####################
 # ----- Bspwm ----- #
@@ -139,7 +197,7 @@ super + alt + r
     bspc wm -r
 
 # Close/Kill node
-super + {_,shift + }x
+super + {_,shift + }q
     bspc node -{c,k}
 
 # Reload sxhkd Keybinds
@@ -171,8 +229,8 @@ ctrl + Tab
     bspc node @/ --rotate {90,-90}
 
 # Switch workspace
-super + {Left,Right}
-    bspc desktop -f {prev,next}
+super + {_,shift + }Tab
+    bspc desktop -f {next,prev}.occupied.local
 
 # Focus or send to the given desktop
 super + {_,ctrl + }{1-9,0}

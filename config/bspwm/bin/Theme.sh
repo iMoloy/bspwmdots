@@ -11,7 +11,7 @@
 # Date:   10.11.2025
 # Info:   This file will configure and launch the rice.
 #
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # Licensed under GPL-3.0 license
 # =============================================================
 

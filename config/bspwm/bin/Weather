@@ -15,13 +15,13 @@
 #   → Core: jq, curl
 #   → Optionals: Polybar, Eww
 #
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # Licensed under GPL-3.0 license
 # =============================================================
 
 # ===== Configuration =====
-KEY="8b05d62206f459e1d298cbe5844d7d87"
-CITY="Mexico City"  # Go to https://openweathermap.org/find to find your city/town
+KEY="2bab41f0010df0210de057893e3e75c3"
+CITY="Jessore, BD"  # Go to https://openweathermap.org/find to find your city/town
 UNITS="metric" # metric | imperial
 
 # Wait for internet

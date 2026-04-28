@@ -1,7 +1,7 @@
 #############################
 #		Emilia Theme		#
 #############################
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # https://github.com/gh0stzk/dotfiles
 
 # (Tokyo Night) colorscheme
@@ -29,13 +29,13 @@ accent_color="#222330"
 arch_icon="#0f94d2"
 
 # Bspwm options
-BORDER_WIDTH="0"		# Bspwm border
+BORDER_WIDTH="2"		# Bspwm border
 TOP_PADDING="50"
 BOTTOM_PADDING="1"
 LEFT_PADDING="1"
 RIGHT_PADDING="1"
-NORMAL_BC="#414868"		# Normal border color
-FOCUSED_BC="#bb9af7"	# Focused border color
+NORMAL_BC="#000000"		# Normal border color
+FOCUSED_BC="#33D17A"	# Focused border color
 
 # Terminal font & size
 term_font_size="10"
@@ -44,8 +44,8 @@ term_font_name="JetBrainsMono Nerd Font"
 # Picom options
 P_FADE="true"			# Fade true|false
 P_SHADOWS="true"		# Shadows true|false
-SHADOW_C="#000000"		# Shadow color
-P_CORNER_R="6"			# Corner radius (0 = disabled)
+SHADOW_C="#FFFFFF"		# Shadow color
+P_CORNER_R="4"			# Corner radius (0 = disabled)
 P_BLUR="false"			# Blur true|false
 P_ANIMATIONS="@"		# (@ = enable) (# = disable)
 P_TERM_OPACITY="1.0"	# Terminal transparency. Range: 0.1 - 1.0 (1.0 = disabled)
@@ -103,8 +103,8 @@ geany_theme="z0mbi3-TokyoNight"
 # - Default (Sets a specific image as wallpaper) *Default
 # - Animated (Set an animated wallpaper. "mp4, mkv, gif")
 # - Slideshow (Change randomly every 15 minutes your wallpaper from Walls rice directory)
-ENGINE="Default"
+ENGINE="CustomDir"
 
-CUSTOM_DIR="/path/to/your/wallpapers/directory"
+CUSTOM_DIR="/home/moy/Pictures/Wallpaper"
 DEFAULT_WALL="$HOME/.config/bspwm/rices/emilia/walls/wall-01.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

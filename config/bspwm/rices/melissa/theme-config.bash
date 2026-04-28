@@ -1,7 +1,7 @@
 #############################
 #		Melissa Theme		#
 #############################
-# Copyright (C) 2021-2026 gh0stzk <z0mbi3.zk@protonmail.com>
+# Copyright (C) 2021-2025 gh0stzk <z0mbi3.zk@protonmail.com>
 # https://github.com/gh0stzk/dotfiles
 
 # (Nord) colorscheme
@@ -106,5 +106,5 @@ geany_theme="z0mbi3-Nord"
 ENGINE="Default"
 
 CUSTOM_DIR="/path/to/your/wallpapers/directory"
-DEFAULT_WALL="$HOME/.config/bspwm/rices/melissa/walls/wall-01.webp"
+DEFAULT_WALL="/home/moy/.config/bspwm/rices/melissa/walls/wall-05.webp"
 ANIMATED_WALL="$HOME/.config/bspwm/config/assets/animated_wall.mp4"

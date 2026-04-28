@@ -22,7 +22,7 @@ disable_redshift() {
 
 enable_redshift() {
 	redshift -x
-	redshift -O 3350
+	redshift -O 6000
 	echo on >"$cache_file"
 }
 
